@@ -342,6 +342,9 @@ fn main() {
         Color::Green => println!("The color is Green"),
         Color::Blue => println!("The color is Blue"),
     }
+
+    // Using the debug trait
+    println!("Color: {:?}", color);
 }
 
 // Function to calculate the area of a square
